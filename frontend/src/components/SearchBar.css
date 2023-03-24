@@ -1,0 +1,21 @@
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar-icon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #ccc;
+  }
+  
+  .search-bar-input {
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
