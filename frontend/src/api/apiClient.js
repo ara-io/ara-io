@@ -44,3 +44,9 @@ export const loginUser = async (credentials) => {
   const response = await apiClient.post('/auth/login', credentials);
   return response.data;
 };
+
+// Dependency Graph
+export const getDependencyGraph = async () => {
+  const response = await apiClient.get('/dependency-graph');
+  return response.data;
+};

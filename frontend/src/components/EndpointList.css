@@ -1,0 +1,43 @@
+.endpoint-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .endpoint-list {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  
+  .endpoint-list-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .endpoint-list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .endpoint-list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .endpoint-list-item-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .endpoint-list-item-url {
+    font-size: 16px;
+    color: #777;
+  }
+  
